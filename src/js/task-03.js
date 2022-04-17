@@ -13,7 +13,6 @@ const images = [
   },
 ];
 
-
 const listRef = document.querySelector(".gallery")
 const itemMarkup = images.map(image => `<li><img src="${image.url}" alt="${image.alt}"></li>`)
   .join("");
