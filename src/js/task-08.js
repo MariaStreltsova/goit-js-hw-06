@@ -4,7 +4,7 @@ form.addEventListener('submit', onFormSubmit)
 
 function onFormSubmit(event) {
     event.preventDefault();
-const {
+  const {
     elements: { email, password }
 } = event.currentTarget;
 if (email.value === "" || password.value === "") {
